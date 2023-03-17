@@ -7,15 +7,15 @@ body
 }
 .circle
 {
-    border: 1px solid hsl(216, 12%, 54%);
+    border: 1px solid hsl(220, 22%, 24%);
     border-radius: 50%;
     padding: 10px;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(220, 22%, 24%);
 }
 .content
 {
-    border: 1px solid hsl(216, 12%, 54%);
-    background-color: hsl(216, 12%, 52%);
+    border: 1px solid hsl(213, 19%, 18%);
+    background-color:  hsl(213, 19%, 18%);
     padding: 3% 2%;
     width: 250px;
     margin: 9% auto;
@@ -33,32 +33,40 @@ p{
 .heading
 {
     font-weight: 700;
+    font-size: 27px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 #result
 {
     text-align: center;
-    border: 1px solid lightgray;
+    border: 1px solid   hsl(215, 14%, 31%);
+    background-color: hsl(215, 14%, 31%) ;
     border-radius: 15px;
     padding: 5px 2px;
-    color: orange;
-    margin: 10% 20%;
+    color: hsl(25, 97%, 53%);
+    margin: 10% 12%;
     letter-spacing: 1px;
     word-spacing: 2px;
 }
 #button
 {
-    color: white;
-    background-color: orange;
+    color: hsl(0, 0%, 100%);;
+    background-color: hsl(25, 97%, 53%);
     border-radius: 15px;
-    border-color: orange;
+    border-color:  hsl(25, 97%, 53%);
     width: 100%;
     letter-spacing: 1.5px;
     padding:4px 0;
-    margin-top: 5%;
+    margin-top: 10%;
 }
-input
+.credit
 {
-    margin: 6%;
+    border: 1px solid hsl(220, 22%, 24%);
+    border-radius: 50%;
+    padding: 4%;
+    margin: 3% ;
+    margin-top: 2%;
+    background-color: hsl(220, 22%, 24%);
+    text-align: center;
 }
